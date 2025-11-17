@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Mahmudul Hasan Novo - Academic & Research Profile</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Tailwind Configuration for a clean, academic look
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Georgia', 'serif'], // Using a serif font for an academic feel
+                        heading: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'academia': '#2c3e50', // Dark Blue/Grey for seriousness
+                        'highlight': '#3498db', // Academic Blue for links and titles
+                        'light-bg': '#ecf0f1', // Off-White background
+                        'text-dark': '#34495e',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom styles for professional formatting and print-ability */
+        body {
+            background-color: #ecf0f1;
+            color: #34495e;
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+        }
+        .header-bg {
+            background-color: #2c3e50;
+        }
+        .section-heading {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.25rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            font-weight: 700;
+        }
+        /* Style for publication list items */
+        .publication-item {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 3px solid #3498db;
+        }
+        .publication-title {
+            font-weight: 600;
+            color: #34495e;
+            margin-bottom: 0.25rem;
+        }
+
+        /* Active Navigation Link Style */
+        .nav-link.active {
+            border-bottom: 3px solid #3498db;
+            color: #3498db;
+            font-weight: 600;
+        }
+
+        /* Print-specific styles: ensure CV prints cleanly */
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            body {
+                background-color: white !important;
+                color: black !important;
+            }
+            .header-bg, .footer {
+                background-color: #f0f0f0 !important;
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Contact Info -->
+    <header class="header-bg text-light-bg shadow-xl no-print">
+        <div class="container mx-auto py-8 px-6">
+            <h1 class="text-4xl font-heading font-bold mb-1">Md. Mahmudul Hasan Novo</h1>
+            <p class="text-xl text-highlight/80">Civil Engineer | Aspiring Researcher in Computational Water & Geotechnical Sciences</p>
+            <div class="mt-4 text-sm flex flex-wrap gap-x-6 gap-y-2">
+                <span><span class="text-highlight mr-1">✉️</span> 1604152@ce.buet.ac.bd</span>
+                <span><span class="text-highlight mr-1">📞</span> (+880) 1780-190598</span>
+                <a href="https://www.linkedin.com/in/novomahmud" target="_blank" class="text-light-bg hover:text-highlight transition">
+                    <span class="text-highlight mr-1">🔗</span> LinkedIn Profile
+                </a>
+                <a href="https://example.com/researchgate" target="_blank" class="text-light-bg hover:text-highlight transition">
+                    <span class="text-highlight mr-1">🎓</span> ResearchGate/Google Scholar
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-10 no-print">
+        <div class="container mx-auto px-6">
+            <div class="flex space-x-6">
+                <!-- Navigation Links - Use data-page for JS routing -->
+                <a href="#home" class="nav-link text-text-dark py-3 px-1 transition duration-150 ease-in-out hover:text-highlight" data-page="home">Home & Summary</a>
+                <a href="#research" class="nav-link text-text-dark py-3 px-1 transition duration-150 ease-in-out hover:text-highlight" data-page="research">Thesis & Research</a>
+                <a href="#projects" class="nav-link text-text-dark py-3 px-1 transition duration-150 ease-in-out hover:text-highlight" data-page="projects">Projects</a>
+                <a href="#skills" class="nav-link text-text-dark py-3 px-1 transition duration-150 ease-in-out hover:text-highlight" data-page="skills">Skills & Education</a>
+                <a href="#experience" class="nav-link text-text-dark py-3 px-1 transition duration-150 ease-in-out hover:text-highlight" data-page="experience">Work & Activities</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area - Contains all pages -->
+    <main class="container mx-auto mt-8 p-6 bg-white rounded-lg shadow-2xl">
+
+        <!-- PAGE 1: Home & Summary -->
+        <section id="page-home" class="page-content">
+            <h2 class="section-heading text-2xl font-heading">Research Focus & Aspirations</h2>
+            <p class="text-justify text-text-dark">
+                As a recent graduate in **Civil Engineering** from BUET, I specialize in **Geotechnical Engineering** and **Water Resources Management**. My core research interest lies in leveraging **Remote Sensing, GIS, and Computational Techniques**, including **Machine Learning**, to address critical environmental and infrastructural challenges. I aspire to contribute to innovative solutions in **Hydrology, Groundwater Modeling, Climate Change impact assessment**, and improving soil mechanics through advanced computational analysis, driving impactful outcomes in both academic and professional settings.
+            </p>
+            <div class="mt-4 text-sm font-medium">
+                <p>Key Interests: <span class="text-highlight font-normal">Remote Sensing, GIS, Machine Learning in Water Modelling, Hydrology, Geotechnical Engineering, Climate Change.</span></p>
+            </div>
+            
+            <h2 class="section-heading text-2xl font-heading mt-8">Education</h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="text-xl font-semibold text-text-dark">B.Sc. in Civil Engineering</h3>
+                    <p class="text-md font-medium text-highlight">Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh</p>
+                    <p class="text-sm text-gray-600">2017 – 2024</p>
+                    <p class="text-sm text-gray-700">
+                        Major: Geotechnical Engineering | Minor: Water Resources Engineering
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 2: Thesis & Research -->
+        <section id="page-research" class="page-content hidden">
+            <h2 class="section-heading text-2xl font-heading">Undergraduate Thesis & Research</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-text-dark">Undergraduate Thesis: Effects of Thixotropy on Remolded Clay Soil</h3>
+                    <p class="text-md font-medium text-highlight">Bangladesh University of Engineering and Technology (BUET)</p>
+                    <p class="text-sm text-gray-600 mb-2">2021 – 2022 | Dhaka, Bangladesh</p>
+                    <ul class="list-disc ml-5 text-gray-700 text-sm space-y-1">
+                        <li>Investigated the time-dependent recovery of shear strength (**thixotropy**) in remolded clay soil samples.</li>
+                        <li>Found that the rate of shear strength improvement diminishes as water content increases, indicating dependence on soil activity.</li>
+                        <li>**Key Finding:** Underscored the necessity of incorporating curing time provisions in strength examination procedures for remolded clay.</li>
+                    </ul>
+                </div>
+            </div>
+            <h2 class="section-heading text-2xl font-heading mt-8">Future Research Areas</h2>
+            <ul class="list-disc ml-5 text-gray-700 text-sm space-y-1">
+                <li>Implementation of Machine Learning in Water Modelling (e.g., runoff prediction, groundwater level forecasting).</li>
+                <li>Remote Sensing and GIS for large-scale agricultural water management and flood analysis.</li>
+                <li>Computational techniques applied to disaster management and risk analysis in coastal engineering.</li>
+            </ul>
+        </section>
+
+        <!-- PAGE 3: Projects -->
+        <section id="page-projects" class="page-content hidden">
+            <h2 class="section-heading text-2xl font-heading">Selected Engineering Projects</h2>
+            <div class="space-y-4">
+                <!-- Project 1 -->
+                <div>
+                    <h3 class="text-xl font-semibold text-text-dark">Design of a Residential Building</h3>
+                    <p class="text-md font-medium text-highlight">Lakshmipur, Bangladesh (2024)</p>
+                    <p class="text-sm text-gray-700">Led the architectural and structural design for a complete residential building project, applying engineering principles and software tools (**ETABS/SAFE**) for structural stability and code compliance.</p>
+                </div>
+
+                <!-- Project 2 -->
+                <div>
+                    <h3 class="text-xl font-semibold text-text-dark">Structural Design of Bridges (Cantilever and Warren Truss)</h3>
+                    <p class="text-md font-medium text-highlight">BUET Coursework (2021)</p>
+                    <p class="text-sm text-gray-700">Conducted analysis and detailed structural design for both a cantilever bridge and a Warren Truss bridge using **SAP2000** for stress, load, and member optimization.</p>
+                </div>
+
+                <!-- Project 3 -->
+                <div>
+                    <h3 class="text-xl font-semibold text-text-dark">Jolshiri Abason Project Survey</h3>
+                    <p class="text-md font-medium text-highlight">Purbachal, Dhaka (2020)</p>
+                    <p class="text-sm text-gray-700">Participated in detailed engineering survey work at the project site, gaining practical experience in topographical measurement and data interpretation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 4: Skills & Education -->
+        <section id="page-skills" class="page-content hidden">
+            <h2 class="section-heading text-2xl font-heading">Technical Skills & Software Proficiency</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div>
+                    <h4 class="font-semibold text-text-dark">Programming Languages:</h4>
+                    <p>Python, C++, HTML, MATLAB</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-text-dark">Civil/Geospatial Software:</h4>
+                    <p>ArcGIS, AutoCAD, SAP2000, ETABS, SAFE</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-text-dark">Productivity & Documentation:</h4>
+                    <p>Microsoft Office Suite, LaTeX</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-text-dark">Soft Skills:</h4>
+                    <p>Effective Communication, Leadership, Problem-solving, Critical Thinking</p>
+                </div>
+            </div>
+            
+            <h2 class="section-heading text-2xl font-heading mt-8">Certifications</h2>
+            <ul class="list-disc ml-5 text-gray-700 text-sm space-y-1">
+                <li><span class="font-medium text-text-dark">ArcGIS: Basic to Advanced</span> (Udemy)</li>
+                <li><span class="font-medium text-text-dark">Data Analytics for Direct Marketing Campaign</span> (Udemy)</li>
+            </ul>
+        </section>
+        
+        <!-- PAGE 5: Work & Activities -->
+        <section id="page-experience" class="page-content hidden">
+            <h2 class="section-heading text-2xl font-heading">Professional Experience</h2>
+            <div>
+                <h3 class="text-xl font-semibold text-text-dark">Planning and Strategy Manager</h3>
+                <p class="text-md font-medium text-highlight">SocioFi Technology</p>
+                <p class="text-sm text-gray-600 mb-2">2024 – Present | Dhaka, Bangladesh</p>
+                <ul class="list-disc ml-5 text-gray-700 text-sm space-y-1">
+                    <li>Led strategic planning and execution, aligning short-term operations with long-term business goals.</li>
+                    <li>Collaborated cross-functionally with leadership and teams to drive organizational alignment and growth initiatives.</li>
+                    <li>Managed resource allocation, risk assessment, and compliance to ensure operational excellence and scalability.</li>
+                </ul>
+            </div>
+
+            <h2 class="section-heading text-2xl font-heading mt-8">Extracurricular & Leadership Activities</h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="text-xl font-semibold text-text-dark">Hall Representative</h3>
+                    <p class="text-md font-medium text-highlight">Titumir Hall, BUET</p>
+                    <p class="text-sm text-gray-700">Organized various hall programs (reunions, festivals, ceremonies) and was responsible for overall activity and actions within the hall.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-text-dark">Program Manager</h3>
+                    <p class="text-md font-medium text-highlight">Brahmaputra Blood Society</p>
+                    <p class="text-sm text-gray-700">Directed winter clothing distribution campaigns, coordinating logistics and volunteer teams to aid remote villages.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-text-dark">Executive Member</h3>
+                    <p class="text-md font-medium text-highlight">BUET Literature Society</p>
+                    <p class="text-sm text-gray-700">Organized teams, led multiple events, and managed logistics and marketing strategies, resulting in increased attendance and participation.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-academia text-light-bg py-4 mt-8 no-print">
+        <div class="container mx-auto px-6 text-center text-sm">
+            <p>Last updated: November 2025 | Profile maintained by Md. Mahmudul Hasan Novo.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Client-Side Routing -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Function to handle page navigation
+            const navigatePage = () => {
+                const hash = window.location.hash || '#home';
+                const pageName = hash.substring(1); // Remove '#'
+
+                // 1. Hide all pages
+                document.querySelectorAll('.page-content').forEach(section => {
+                    section.classList.add('hidden');
+                });
+
+                // 2. Show the target page
+                const targetPage = document.getElementById('page-' + pageName);
+                if (targetPage) {
+                    targetPage.classList.remove('hidden');
+                } else {
+                    // Default to home if hash is invalid
+                    document.getElementById('page-home').classList.remove('hidden');
+                }
+
+                // 3. Update navigation link active state
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('data-page') === pageName) {
+                        link.classList.add('active');
+                    }
+                });
+            };
+
+            // Event listeners for navigation
+            window.addEventListener('hashchange', navigatePage);
+            
+            // Initial load of the correct page
+            navigatePage();
+        });
+    </script>
+
+</body>
+</html>
